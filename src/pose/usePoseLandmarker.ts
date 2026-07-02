@@ -21,7 +21,7 @@ import {
 const WASM_BASE =
   'https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.35/wasm'
 const MODEL_URL =
-  'https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_lite/float16/1/pose_landmarker_lite.task'
+  'https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_full/float16/1/pose_landmarker_full.task'
 
 export type PoseStatus = 'idle' | 'loading' | 'ready' | 'error'
 
